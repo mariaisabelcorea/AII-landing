@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+
+#sec-intropost{
+    background-image: url( ../img/UK_Static_613x299_BohemianRhapsody_ss_Premier_EN-daff436aee.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	color: #fff;
+	text-align: center;
+	
+}
+.img-responsive{padding: 20px 0px}
+.bg-intropost{
+	padding: 100px 0;
+	min-height: 500px;
+	
+}
+.btn-info{background-color:#fff;border-color: #FEFEFE; position: absolute;}
+.btn-info:hover{text-decoration: none;background-color: #9D01E5; border-color: #9D01E5;}
+#sec-intropost h1{
+	color: #FFFFFF;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sec-intropost a{
+	color: #000000;
+	font-size: 17px;	
+}
+
+
+#sec-menu {
+	text-align: center;
+	color: #2A2A2A;
+}	
+#nav{text-align: center;}
+#sec-bajo{color: #FFFFFF;font-weight: 600;}
+#TS{background-color: aquamarine;padding: 30px 30px; font-size: 30px;}
+#TS a{color: aliceblue}
+#TS a:hover{color: aliceblue; text-decoration-color: #000000;}
+#D{background-color: #FF58E1;padding: 30px 30px;font-size: 30px;}
+#D a{color: aliceblue}
+#D a:hover{color: aliceblue; text-decoration-color: #000000;}
+#GS{background-color: #FF8A2F; padding: 30px 30px;font-size: 30px;}
+#GS a{color: aliceblue}
+#GS a:hover{color: aliceblue; text-decoration-color: #000000;}
+
+
+
+
+
+
+#sec-work h2{
+	text-align: center;
+	
+}
+
+
+#sec-work ul{
+	padding-bottom: 80px;
+	word-spacing: 25px;
+}
+
+.down{
+	padding-top: 12px;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.up{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.lista-work a{
+	color: #111;
+	text-transform: uppercase;
+}
+
+.lista-work a:hover{
+	color: #FFAA0A;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.work{
+	position: relative;
+	overflow: hidden;
+}
+.work-bg{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	top: 0;
+	left: 0;
+	background-color: rgba(61,61,61,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	z-index: 1;
+}
+.work-info{
+	position: absolute;
+	width: 100%;
+	bottom: 100%;
+	left: 0;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	z-index: 2;
+}
+
+.work:hover .work-info{
+	opacity: 1;
+	bottom: 50%;
+	transform: translateY(50%)
+}
+.work img{
+	transition: all 0.3s ease-in-out;
+}
+.work:hover .work-bg{
+	opacity: 1;
+}
+.work:hover img{
+	transform: scale(1.1) rotate(2deg);
+	transition: all 0.3s ease-in-out;
+}
+.work-info h3{
+	font-size: 14px;
+}
+.work-info p{
+	font-size: 12px;
+	color: #aaa;
+}
+
+.section{
+	padding: 100px 0;
+}
+
+#sec-barra h3{
+	font-size: 12px;
+	color: #AAAAAA;
+	letter-spacing: 1px;
+}
+
+#sec-barra h2{
+	font-size: 13px;
+	color: #FFF;
+	
+}
+
+#sec-barra{
+	background-color:#353131;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+#sec-barra a{
+	font-size: 12px;
+}
+
+#sec-barra .btn-blanco{
+	text-transform: uppercase; 
+	font-size: 11px; 
+	padding: 6px 30px; 
+	letter-spacing: 2px; 
+	background-color:#417AFF;
+	color: #FFF;
+	
+}
+
+#sec-barra .btn-blanco:hover{
+
+	background-color: #000;
+	
+}
+
+#sec-barra .pad1{
+	
+	padding-left: 200px;
+	
+}
+
+#sec-barra .pad2 {
+	padding-left: 200px;
+}
+
+
+
+.separation {
+	padding-bottom: 40px;
+	padding-left: 20px;
+}
+
+.separation h4{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.separation p{
+	font-weight: 200;
+	font-size: 15px;
+}
+
+
+.fa-check{
+	padding-right: 10px;
+	font-size: 30px;
+}
+
+
+/*forms*/
+
+
+
+
+#name {
+	text-align: center;
+	background-color: #282f31;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	
+}
+
+#company {
+	text-align: center;
+	background-color: #282f31;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+}
+
+#correo{
+	text-align:center;
+	background-color: #282f31;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	
+}
+
+#sec-landing{
+	background-color: #171E21;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#sec-landing .article{
+	
+}
+
+#form-contacto{
+	background-color: #101417;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	color: #8c9093;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#sec-landing h1{
+	color: #FFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	font-size: 30px;
+	padding-top: 20px;
+	
+	
+}
+
+#sec-landing .btn{
+	background-color: #5892bf;
+	color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 100;
+
+}
+
+#sec-landing .btn:hover{
+	background-color: #FFF;
+	color: #5892bf;
+}
+
+.form-control{
+	border: 0;
+	
+	
+}
+
+.box{
+	background-color: #101417;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+.space{
+	padding-bottom: 20px;
+	padding-top: 25px;
+	color: #FFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
+#sec-landing h4{
+	padding-bottom: 12px;
+	padding-top: 15px;
+	color: #FFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 100;
+	font-size: 15px;
+	padding-left: 100PX;
+}
+
+.check {
+	color: #5892bf;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+.icono-centro{
+	font-size: 50px;
+	color: #5892bf;
+
+}
+
+.titulo{ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+
+
+.barra{
+	background-color: #5892bf;
+	width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 5px;
+}
